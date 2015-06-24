@@ -1,0 +1,102 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100%;
+
+    color: green;
+
+    font-family: 'Arial', serif;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: green;
+
+
+}
+
+.container{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: white;
+	padding: 10px; 
+}
+
+.navigation ul{
+	list-style-type: none;
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+
+.navigation li {
+    margin-left: 30px;
+    padding: 0 5px;
+    color: green;
+
+}
+
+.navigation li:hover {
+    color: red;
+}
+
+.navigation li a {
+    color: green;
+    text-decoration: none;
+}
+
+.navigation li:hover a {
+    color: red;
+}
+
+.media_container{
+	width: 100%; 
+	height: 475px;
+
+}
+
+.cover_image{
+	width: 100%;
+	height: 400px;
+	/* best way to center crop images */
+	background-position: center center;
+	
+}
+.profile_image{
+	/* why absolute? */
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	margin-top: -75px;
+	margin-left: 75px; 
+
+	border-radius: 50%;
+    border: 2px solid green;
+    
+    
+}
+
+.media_container .name{
+	
+	margin-top: -75px;
+	margin-left: 300px;
+	color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+
+    text-align: center;
+    background-color: green;
+    color: white;
+
+    line-height: 40px;
+    padding-bottom: 10px;
+
+
+}
