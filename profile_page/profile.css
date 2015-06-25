@@ -76,7 +76,13 @@ html, body {
 
 	border-radius: 50%;
     border: 2px solid green;
-    
+    /* para centrar uma imagem colocamos essa imagem 
+    como background e depois aumentamos (background size)
+    e centralizamos com o background position*/
+    background-image: url(https://lh3.googleusercontent.com/zN1YfF5xqfYGvgWOW9iAE0QPIsxixHRgoL9a8u_NRZI=w938-h703-n);
+    background-size: 200%;
+    background-position: left bottom;
+
     
 }
 
